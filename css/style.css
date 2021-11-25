@@ -1,3 +1,7 @@
+/* header {
+    z-index:1;
+} */
+
 .header-top {
     height: 30px;
     width: 100%;
@@ -44,10 +48,6 @@
     background-size: cover;
     border-radius: 0;
     margin: 0;
-}
-
-.container-fluid.play-plus {
-    background: url(../img/);
 }
 
 .logo-games {
