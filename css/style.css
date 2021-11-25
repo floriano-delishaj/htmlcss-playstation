@@ -1,0 +1,102 @@
+.header-top {
+    height: 30px;
+    width: 100%;
+}
+
+.text-jumbo {
+    width: 360px;
+}
+
+.text-plus {
+    width: 50%;
+}
+
+.button {
+    border: 0;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.box-games {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.col-4:hover .col-md:hover {
+    border-bottom: 1px solid coral;
+}
+
+/* BG IMAGES */
+
+.container-fluid.jumbotron {
+    background: url(../img/jumbo-bg.png) 50% 50% no-repeat;
+    background-size: cover;
+    border-radius: 0;
+    height: 650px;
+}
+
+.container-fluid.takes-two {
+    background: url(../img/it-takes-two-hero-banner-desktop.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    border-radius: 0;
+    margin: 0;
+}
+
+.container-fluid.play-plus {
+    background: url(../img/);
+}
+
+.logo-games {
+    width: 220px;
+}
+
+/* COLORS */
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-gray {
+    background-color: #777
+}
+
+.bg-dark-gray {
+    background-color: #222;
+}
+
+.bg-blue {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.bg-dark-blue {
+    background-color: rgb(1, 1, 71);
+}
+
+.bg-orange {
+    background-color:#b9371c;
+    color: #fff;
+}
+
+.bg-button-plus {
+    background-color: #ccc;
+    color: #007bff;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (min-width: 330px) and (max-width: 991px) {
+
+    .logo-games {
+        width: 50%;
+    }
+
+}
+
+@media only screen and (min-width: 330px) and (max-width:769px) {
+
+    .none {
+        display: none;
+    }
+
+}
