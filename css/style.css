@@ -26,6 +26,10 @@
     border-bottom: 1px solid coral;
 }
 
+.f-20 {
+    font-size: 25px;
+}
+
 /* BG IMAGES */
 
 .container-fluid.jumbotron {
