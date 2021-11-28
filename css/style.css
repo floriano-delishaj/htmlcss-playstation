@@ -1,7 +1,3 @@
-/* header {
-    z-index:1;
-} */
-
 .header-top {
     height: 30px;
     width: 100%;
@@ -15,10 +11,19 @@
     width: 50%;
 }
 
+.logo-games {
+    width: 220px;
+}
+
 .button {
     border: 0;
     padding: 6px 12px;
     border-radius: 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .box-games {
@@ -26,12 +31,44 @@
     overflow: hidden;
 }
 
-.col-4:hover .col-md:hover {
+.border_hover:hover {
     border-bottom: 1px solid coral;
 }
 
-.f-20 {
+.float {
+    transition: all .7s;
+}
+
+.float:hover {
+    transform: translateY(-20px);
+    transition: all .7s;
+}
+
+.f-25 {
     font-size: 25px;
+}
+
+.f-15 {
+    font-size: 15px
+}
+
+.img-world {
+    height: 15px;
+    width: 15px;
+}
+
+.style-none {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+
+.style-none li {
+    margin-bottom: 0.5rem;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 /* BG IMAGES */
@@ -50,10 +87,6 @@
     margin: 0;
 }
 
-.logo-games {
-    width: 220px;
-}
-
 /* COLORS */
 
 .bg-black {
@@ -69,7 +102,7 @@
 }
 
 .bg-blue {
-    background-color: #007bff;
+    background-color: #00439c;
     color: #fff;
 }
 
@@ -84,7 +117,7 @@
 
 .bg-button-plus {
     background-color: #ccc;
-    color: #007bff;
+    color: #00439c;
 }
 
 /* MEDIA QUERY */
@@ -95,6 +128,7 @@
         width: 50%;
     }
 
+
 }
 
 @media only screen and (min-width: 330px) and (max-width:769px) {
@@ -102,5 +136,14 @@
     .none {
         display: none;
     }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    .text-font {
+        width: 50%;
+    }
+
 
 }
