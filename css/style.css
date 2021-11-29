@@ -1,3 +1,20 @@
+.dropdown { 
+    position: static;
+}
+
+.dropdown-menu {
+    width: 100%;
+    text-align: center;
+}
+
+.dropdown-menu>li {
+    display: inline-block;
+}
+
+.dropdown-toggle::after {
+    color:#00439c;
+}
+
 .header-top {
     height: 30px;
     width: 100%;
@@ -15,33 +32,55 @@
     width: 220px;
 }
 
-.button {
-    border: 0;
-    padding: 6px 12px;
-    border-radius: 20px;
-    cursor: pointer;
+a.btn {
+    border-radius: 40px;
+    border-width: 2px;
 }
 
-.button:hover {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+a.btn:hover {
+    box-shadow: inset 0 0 0 2px #fff;
+}
+
+a.btn.border-inset-black:hover {
+    box-shadow: inset 0 0 0 2px #000;
+}
+
+a.btn.btn-play-plus {
+    background-color: #ccc;
+}
+
+a.btn.btn-play-plus:hover {
+    box-shadow: 5px 5px 5px #555;
 }
 
 .box-games {
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
-.border_hover:hover {
+.border-jumbo-games {
+    padding: 3px;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+.hover-console {
+    opacity: 0.6;
+    border-bottom: 1px solid transparent;
+}
+
+.hover-console:hover {
+    opacity: 1;
     border-bottom: 1px solid coral;
 }
 
 .float {
-    transition: all .7s;
+    transition: all .5s ease-in-out;
 }
 
 .float:hover {
     transform: translateY(-20px);
-    transition: all .7s;
+    transition: all .5s ease-in-out;
 }
 
 .f-25 {
@@ -115,11 +154,6 @@
     color: #fff;
 }
 
-.bg-button-plus {
-    background-color: #ccc;
-    color: #00439c;
-}
-
 /* MEDIA QUERY */
 
 @media only screen and (min-width: 330px) and (max-width: 991px) {
@@ -141,7 +175,7 @@
 
 @media only screen and (min-width: 992px) {
 
-    .text-font {
+    .text-footer {
         width: 50%;
     }
 
